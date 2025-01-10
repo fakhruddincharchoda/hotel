@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hotel_website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <link
+      href="https://fontawesome.com/icons/copyright?f=classic&s=solid&an=beat"
+    />
+    <link href="https://fontawesome.com/icons/circle-xmark?f=classic&s=solid" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+      </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_con">
+        <div class="hiddenDiv"></div>
+        <nav class="nav">
+          <div class="nav_logo">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/000/623/284/original/mountain-logo-vector-illustration.jpg"
+            />
+          </div>
+          <div class="hotel-name">
+            <p class="hotel_name">Hill Town</p>
+            <span>Resort</span>
+          </div>
+          <div class="nav-links">
+            <p class="nav_link" id="home">HOME</p>
+            <p class="nav_link" id="room">ROOMS</p>
+            <p class="nav_link" id="services">SERVICES</p>
+            <p class="nav_link" id="blog">BLOG</p>
+            <p class="nav_link" id="about">ABOUT US</p>
+            <p class="nav_link" id="contact">CONTACT US</p>
+          </div>
+          <button class="btn-book">BOOK NOW</button>
+        </nav>
+
+        <div class="welcome-text">
+          <p class="quality">Spend Quality</p>
+          <br />
+          <span class="with">Holidays With Us</span><br />
+          <div class="text-div">
+            <p class="text">
+              Escape to Paradise. Let the waves kiss your feet and the sun warm
+              your soul at Hill Town
+            </p>
+            <br />
+            <div class="text-2">
+              <p>your ultimate beachfront retreat</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn--text btn--scroll-to">
+          Explore more &DownArrow;
+        </button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="section" id="section-1">
+        <div class="container_room">
+          <div class="title_room">
+            <p class="text_room">Our Rooms</p>
+          </div>
+          <div class="qoute_div-room">
+            <p class="qoute-text_room">
+              Relax in comfort and luxury, where every stay <br />feels like a
+              getaway.
+            </p>
+          </div>
+          <div class="rooms-1_con">
+            <div class="image_room-1">
+              <img
+                class="room-1 blur"
+                src="./assets/room1-blur-img.jpg"
+                data-src="./assets/rooms1-img.jpg"
+              />
+            </div>
+            <p class="qoute_content-1">Comfortable Beds</p>
+            <div class="content__room-1">
+              <p class="text_content-1">
+                Sink into the ultimate comfort of our luxurious beds, featuring
+                plush mattresses, premium linens, soft duvets, supportive
+                pillows, cozy textures, elegant designs, spacious layouts, and a
+                serene ambiance for restful nights.
+              </p>
+            </div>
+          </div>
+          <div class="rooms-2_con">
+            <div class="image_room-2">
+              <img
+                class="room-2 blur"
+                src="./assets/blur-room2-img.jpg"
+                data-src="./assets/room2-img.jpg"
+              />
+            </div>
+            <p class="qoute_content-2">Luxurious Stay</p>
+            <div class="content__room-2">
+              <p class="text_content-2">
+                Discover unmatched luxury with opulent interiors, plush bedding,
+                and refined décor. Enjoy serene ambiance, impeccable service,
+                and premium amenities designed to provide ultimate comfort,
+                sophistication, and an unforgettable, indulgent experience.
+              </p>
+            </div>
+          </div>
+          <div class="rooms-3_con">
+            <div class="image_room-3">
+              <img
+                class="room-3 blur"
+                src="./assets/blur-room-3.jpg"
+                data-src="./assets/room3-img.jpg"
+              />
+            </div>
+            <p class="qoute_content-3">Excellent View</p>
+            <div class="content__room-3">
+              <p class="text_content-3">
+                Immerse yourself in breathtaking views that captivate the
+                senses. Witness stunning landscapes, vibrant sunsets, and serene
+                horizons from every angle. Our rooms offer unparalleled vistas,
+                combining beauty and tranquility for a truly unforgettable and
+                picturesque experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="section-2">
+        <div class="services">
+          <div class="title_services">
+            <p class="text_services">Services</p>
+          </div>
+          <div class="qoute_services">
+            <h3 class="qoute2">
+              Experience Unmatched Comfort and Exceptional Service <br />
+              Where Every Stay Feels Like Home.
+            </h3>
+          </div>
+          <div class="btns-div">
+            <button class="btns_services btn__active" id="btn-1" data-tab="1">
+              Luxurious Stay
+            </button>
+            <button class="btns_services" id="btn-2" data-tab="2">
+              Spa & Wellness Center
+            </button>
+            <button class="btns_services" id="btn-3" data-tab="3">
+              On Site Dinning
+            </button>
+          </div>
+          <div class="container_services">
+            <div
+              class="services__content content__services--1 content__services--active"
+            >
+              <div class="icon_stay">
+                <img src="./assets/stay_logo.png" class="icon-1" />
+              </div>
+              <h3 class="qoute_stay">
+                Where luxury meets comfort, creating an unforgettable stay.
+              </h3>
+              <p class="stay_content">
+                Experience luxury with exceptional service, elegant design, and
+                world-class amenities. Enjoy spacious rooms, stunning views, and
+                modern comforts, ensuring a memorable stay in the heart of
+                sophistication and style.
+              </p>
+            </div>
+            <div class="services__content content__services--2">
+              <div class="icon_site">
+                <img class="icon-2" src="./assets/dinning-icon.png" />
+              </div>
+              <h3 class="qoute_spa">
+                Relax and rejuvenate with our luxurious spa experience
+              </h3>
+              <p class="spa_content">
+                Relax and rejuvenate at our luxurious spa, offering soothing
+                massages, refreshing facials, and calming treatments. Experience
+                ultimate relaxation in a serene environment, designed to refresh
+                both body and mind.
+              </p>
+            </div>
+            <div class="services__content content__services--3">
+              <div class="icon_spa">
+                <img class="icon-3" src="./assets/spa-icon.png" />
+              </div>
+              <h3 class="qoute_stay">Indulge in exquisite on-site dining</h3>
+              <p class="spa_content">
+                Enjoy a remarkable dining experience at our on-site restaurant,
+                offering a variety of local and international dishes. Crafted
+                with the freshest ingredients, each meal is served in an elegant
+                setting, ensuring a memorable and satisfying culinary journey.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="section-3">
+        <div class="blogs_div">
+          <div class="title_blogs">
+            <p class="text_blogs">Our Customers Says!</p>
+          </div>
+          <div class="quote_blogs">
+            <h3 class="head_qoute-blogs">
+              Hear from our guests and discover why they love <br />staying with
+              us!
+            </h3>
+          </div>
+          <div class="slider">
+            <div class="slider_icon">
+              <img class="review_icon" src="./assets/recommend.png" />
+            </div>
+            <div class="slider_1 slide">
+              <div class="qoute_slider">
+                <h3 class="slider_qoute-1">
+                  Amazing service and beautiful rooms!
+                </h3>
+                <div class="review-1">
+                  <p class="review_text-1">
+                    I had an incredible experience at this hotel. From the
+                    moment I arrived, the staff was welcoming and attentive. The
+                    room was spacious, clean, and comfortable, offering all the
+                    amenities I needed. The location was perfect for exploring
+                    the area, and the overall atmosphere was relaxing. I would
+                    definitely recommend this hotel for a memorable stay.
+                  </p>
+                </div>
+                <address class="address-1">
+                  <img class="user-1" src="./assets/user (1).jpeg" />
+                  <p class="name-1">John davis</p>
+                  <span class="city-1">Allahabad,India</span>
+                </address>
+              </div>
+            </div>
+            <div class="slider_2 slide">
+              <div class="qoute_slider">
+                <h3 class="slider_qoute-1">
+                  Pure luxury and comfort. Absolutely loved it!
+                </h3>
+                <div class="review-1">
+                  <p class="review_text-1">
+                    Absolutely loved my stay! The room was spotless, the bed was
+                    incredibly comfortable, and the view was breathtaking. The
+                    staff went above and beyond to make us feel welcome. It
+                    truly felt like a luxurious retreat. I’ll definitely be
+                    returning to experience this slice of paradise again!
+                  </p>
+                </div>
+                <address class="address-1">
+                  <img class="user-1" src="./assets/user (2).jpeg" />
+                  <p class="name-1">Marry D'cruz</p>
+                  <span class="city-1">London,UK</span>
+                </address>
+              </div>
+            </div>
+            <div class="slider_3 slide">
+              <div class="qoute_slider">
+                <h3 class="slider_qoute-1">
+                  Comfort, elegance, and amazing service.
+                </h3>
+                <div class="review-1">
+                  <p class="review_text-1">
+                    My stay here was nothing short of amazing! The rooms were
+                    spotless, the beds cozy, and the mountain views
+                    breathtaking. The staff’s hospitality truly stood out—they
+                    catered to every need with a smile. The dining experience
+                    was exquisite, and the serene atmosphere was just perfect.
+                    I’d highly recommend this resort for a relaxing and
+                    luxurious getaway!
+                  </p>
+                </div>
+                <address class="address-1">
+                  <img class="user-1" src="./assets/user.jpeg" />
+                  <p class="name-1">Abbas chunawala</p>
+                  <span class="city-1">Dohad,India</span>
+                </address>
+              </div>
+            </div>
+            <div class="slider_3 slide">
+              <div class="qoute_slider">
+                <h3 class="slider_qoute-1">
+                  Stunning place with impeccable hospitality.
+                </h3>
+                <div class="review-1">
+                  <p class="review_text-1">
+                    This hotel exceeded all expectations! The rooms were
+                    impeccably clean, the staff was incredibly hospitable, and
+                    the views were absolutely breathtaking. From the relaxing
+                    ambiance to the delicious dining options, every detail was
+                    perfection. Highly recommended for a luxurious retreat!
+                  </p>
+                </div>
+                <address class="address-1">
+                  <img class="user-1" src="./assets/user-3.jpeg" />
+                  <p class="name-1">Huzefa Ratlam</p>
+                  <span class="city-1">Dubai,UAE</span>
+                </address>
+              </div>
+            </div>
+
+            <button class="slider__btn slider__btn--left">&larr;</button>
+            <button class="slider__btn slider__btn--right">&rarr;</button>
+            <div class="dots"></div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="section-4">
+        <div class="book-div">
+          <div class="qoute_book">
+            <p class="text-book">
+              Your perfect get away starts with a single click <br />
+              book your room today!
+            </p>
+          </div>
+          <button class="btn_book--footer">Book your Room Now</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-div">
+        <div class="tags-div">
+          <p class="about">About</p>
+          <p class="Pricing">Pricing</p>
+          <p class="terms">Terms of Use</p>
+          <p class="policy">Privacy Policy</p>
+          <p class="career">Careers</p>
+          <p class="blog">Blog</p>
+          <p class="contact">Contact Us</p>
+        </div>
+        <div class="logo-footer">
+          <img class="logo-5" src="./assets/mountain-img.jpg" />
+        </div>
+        <div class="qoute-footer_copy">
+          <p class="footer-mine">
+            &copy; Copyright by Fakhruddin Charchoda. All right are reseverd
+            from 2025
+          </p>
+        </div>
+      </div>
+    </footer>
+    <div class="overlay-modal hidden">
+      <div class="icon-cross">
+        <img class="cross-icon" src="./assets/icons8-cross-30.png" />
+      </div>
+      <p class="overlay-text">Book your Room</p>
+      <br />
+      <p class="overlay-text-2">In just 1 minute</p>
+      <form>
+        <label>Name</label>
+        <input type="text" class="email" />
+        <label>Email Address</label>
+        <input type="text" />
+
+        <label class="label_room">No. of Rooms</label>
+        <input
+          type="number"
+          id="quantity"
+          name="qauntity"
+          min="1"
+          max="5"
+          step="1"
+          value="1"
+        />
+      </form>
+      <button class="btn-book_overlay">Book Room</button>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+  <script src="script.js"></script>
+</html>
